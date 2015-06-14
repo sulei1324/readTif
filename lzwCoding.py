@@ -2,7 +2,7 @@ __author__ = 'Su Lei'
 
 # d = {'1': '1', '2':  '2', '3': '3', '4':  '4'}
 d = ['A', 'B', 'C', 'D']
-r = 'ABABABABBBABABAA'
+r = 'AAAAAAAAAAAAA'
 
 o = []
 
