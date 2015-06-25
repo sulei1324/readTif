@@ -38,7 +38,7 @@ for i in o:
     tmp = bin(i)[2::]
     if len(tmp) is not 9:
         nt = 9 - len(tmp)
-        tmp = '0' * nt + tmp
+        tmp += '0' * nt
     obs += tmp
 
 if len(obs) % 8 is not 0:

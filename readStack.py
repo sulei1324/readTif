@@ -8,6 +8,6 @@ a = cv.imread('Stack.tif', -1)
 b = np.array([1, 2, 3])
 print a.dtype, a.shape
 
-c = tifffile.imread('Stack.tif')
+c = tifffile.imread('Stack3.tif')
 print c.dtype, c.shape
-tifffile.imsave('22.tif', c)
+tifffile.imsave('223.tif', c)
